@@ -1,0 +1,64 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  --color-smoke: #F4F4F4;
+  --color-ash: #0E0E0E;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body, 
+html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-ash);
+  color: var(--color-smoke);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 40px;
+  margin: 0;
+  background-color: var(--color-smoke);
+  color: var(--color-ash);
+  border-radius: 0 0 20px 0;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.introduction {
+  max-width: 85rem;
+  margin: 40px 8px;
+  padding: 0 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    .header {
+      gap: 2px;
+  }
+  .main-title {
+      font-size: 3rem;
+      padding: 10px;
+  }
+  .logo {
+      width: 50px;
+      height: 50px;
+  }
+}
