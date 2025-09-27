@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Radiohead Concerts//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART:20240915T193000
+DTEND:20240915T220000
+SUMMARY:Radiohead Concert - Montréal, Canada
+LOCATION:Place des Arts
+DESCRIPTION:Radiohead live in Montréal. Tickets: https://www.ticketmaster.ca/radiohead-montreal-quebec-09-15-2024/event/1F005C8B9A3C5B6E
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240918T200000
+DTEND:20240918T223000
+SUMMARY:Radiohead Concert - New York, U.S.
+LOCATION:Madison Square Garden
+DESCRIPTION:Radiohead live in New York. Tickets: https://www.ticketmaster.com/radiohead-new-york-09-18-2024/event/1F005C8B9A3C5B6E
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240921T190000
+DTEND:20240921T213000
+SUMMARY:Radiohead Concert - Hewlêr, Kurdistan
+LOCATION:Erbil International Fairground
+DESCRIPTION:Radiohead live in Hewlêr. Tickets: https://www.ticketmaster.com/radiohead-erbil-09-21-2024/event/1F005C8B9A3C5B6E
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240924T200000
+DTEND:20240924T223000
+SUMMARY:Radiohead Concert - Zürich, Switzerland
+LOCATION:Hallenstadion
+DESCRIPTION:Radiohead live in Zürich. Tickets: https://www.ticketmaster.ch/radiohead-zurich-09-24-2024/event/1F005C8B9A3C5B6E
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240927T193000
+DTEND:20240927T220000
+SUMMARY:Radiohead Concert - Paris, France
+LOCATION:Accor Arena
+DESCRIPTION:Radiohead live in Paris. Tickets: https://www.ticketmaster.fr/radiohead-paris-09-27-2024/event/1F005C8B9A3C5B6E
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240930T193000
+DTEND:20240930T220000
+SUMMARY:Radiohead Concert - London, UK
+LOCATION:The O2 Arena
+DESCRIPTION:Radiohead live in London. Tickets: https://www.ticketmaster.co.uk/radiohead-london-09-30-2024/event/1F005C8B9A3C5B6E
+END:VEVENT
+END:VCALENDAR
