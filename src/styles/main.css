@@ -75,6 +75,8 @@ a {
 
 .members-photo {
   width: 100%;
+  height: auto;
+  max-height: 500px;
 }
 
 .members-caption {
@@ -170,11 +172,12 @@ a {
       width: 45px;
       height: 45px;
   }
-  .concerts {
-    padding: 0 30px;
-  }
   .concerts-table {
     max-width: 80%;
     overflow-x: auto;
+    margin: 0 30px;
   }
+  /* .share {
+    margin: 0;
+  } */
 }
