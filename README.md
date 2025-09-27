@@ -1,4 +1,5 @@
 # Radiohead Fan Website
+A website created to showcase Radiohaed as part of a web development course.
 
 ## Disclaimer
 
