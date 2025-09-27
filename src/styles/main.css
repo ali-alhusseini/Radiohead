@@ -57,7 +57,7 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .section-tab {
@@ -131,6 +131,11 @@ a {
 .concerts-table th {
   font-size: larger;
   font-weight: 700;
+}
+
+.concerts-table a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .buttons-spacer {
@@ -215,6 +220,18 @@ a {
   scrollbar-width: none;
 }
 
+footer {
+  text-align: left;
+  padding: 40px 150px 40px 20px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+footer a {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+
 /* Responsive for mobile */
 @media (max-width: 600px) {
   .header {
@@ -237,8 +254,4 @@ a {
     overflow-x: auto;
     margin: 0 30px;
   }
-
-  /* .share {
-    margin: 0;
-  } */
 }
