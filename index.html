@@ -144,10 +144,9 @@
                 <img src="/src/assets/icons/calendar.svg" alt="Calendar icon" aria-hidden="true">
                 Add all concerts to your calendar
             </button>
-            <button class="share"
-                onclick="navigator.clipboard.writeText(window.location.href).then(() => { alert('Page URL copied to clipboard!'); }).catch(err => { console.error('Failed to copy: ', err); });">
+            <button class="copy-url">
                 <img src="/src/assets/icons/share.svg" alt="Share icon" aria-hidden="true">
-                Share
+                Copy URL
             </button>
         </div>
     </div>
@@ -187,6 +186,13 @@
         </div>
         <button class="prev" onclick="scrollCarousel(-1)">‹</button>
         <button class="next" onclick="scrollCarousel(1)">›</button>
+    </div>
+    <div class="contact" id="contact">
+        <div class="section-header">
+            <div class="section-tab"></div>
+            <h2 class="section-title">Contact</h2>
+        </div>
+        <p class="contact-text">Reach out to us on <a href="https://x.com/radiohead" alt="Radiohead's official X account" target="_blank" rel="noopener noreferrer">Twitter (X)</a> or at <a href="mailto:info@radiohead.com" target="_blank">info@radiohead.com</a></p>
     </div>
 
     <footer>

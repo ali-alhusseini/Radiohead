@@ -177,7 +177,7 @@ a {
   cursor: pointer;
 }
 
-.share {
+.copy-url {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -239,6 +239,33 @@ a {
 .carousel-track {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.contact {
+  width: 100%;
+  background-color: var(--color-smoke);
+  color: var(--color-ash);
+  margin: 40px 0;
+}
+
+.contact .section-tab {
+  background-color: var(--color-ash);
+}
+
+.contact p {
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 0 40px 40px 40px;
+  margin: 0;
+}
+
+.contact a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.contact a:hover {
+  text-decoration-thickness: 4px;
 }
 
 footer {

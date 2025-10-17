@@ -7,3 +7,10 @@ function scrollCarousel(direction) {
     behavior: "smooth",
   });
 }
+
+document.querySelector(".copy-url").addEventListener("click", () => {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url).then(() => {
+    alert("URL copied to clipboard!");
+  });
+});
