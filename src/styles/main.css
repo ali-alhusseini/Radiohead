@@ -16,6 +16,7 @@ html {
   padding: 0;
   background-color: var(--color-ash);
   color: var(--color-smoke);
+  overflow-x: hidden;
 }
 
 a {
@@ -32,6 +33,26 @@ a {
   background-color: var(--color-smoke);
   color: var(--color-ash);
   border-radius: 0 0 20px 0;
+}
+
+.header nav {
+  margin-left: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links li a {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
 }
 
 .logo {
@@ -235,8 +256,17 @@ footer a {
 /* Responsive for mobile */
 @media (max-width: 600px) {
   .header {
+    flex-direction: column;
     padding: 40px;
     gap: 2px;
+  }
+
+  .nav-links {
+    padding: 0;
+  }
+
+  .header nav {
+    margin-left: 0;
   }
 
   .main-title {
