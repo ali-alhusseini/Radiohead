@@ -107,6 +107,23 @@ a {
   margin: 10px 20px 100px 40px;
 }
 
+.members-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  margin: 0 0 100px 0;
+  list-style: none;
+}
+
+.member-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .concerts {
   width: 100%;
   background-color: var(--color-smoke);
