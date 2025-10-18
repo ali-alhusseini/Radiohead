@@ -8,4 +8,4 @@ This website has been created solely as part of a course project and is not affi
 
 ## Screenshot
 
-![Website screenshot](/src/assets/images/design-screenshot.png)
+![Website screenshot](/images/screenshot.png)
