@@ -32,7 +32,6 @@ a {
   margin: 0;
   background-color: var(--color-smoke);
   color: var(--color-ash);
-  border-radius: 0 0 20px 0;
 }
 
 .header nav {
@@ -68,10 +67,22 @@ a {
 
 .introduction {
   max-width: 85rem;
-  margin: 60px 8px;
+  margin: 60px 0;
   padding: 0 40px;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.members-photo {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.members-caption {
+  font-size: 0.9rem;
+  color: gray;
+  margin: 10px 20px 20px 40px;
 }
 
 .section-header {
@@ -95,16 +106,8 @@ a {
   padding: 0;
 }
 
-.members-photo {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-}
-
-.members-caption {
-  font-size: 0.9rem;
-  color: gray;
-  margin: 10px 20px 100px 40px;
+.members {
+  border-top: 5px solid var(--color-smoke);
 }
 
 .members-list {
