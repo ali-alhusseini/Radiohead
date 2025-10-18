@@ -288,6 +288,18 @@ a {
   text-decoration-thickness: 4px;
 }
 
+.social-media {
+  padding: 0 40px 40px 40px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
 footer {
   text-align: left;
   padding: 40px 150px 40px 20px;
