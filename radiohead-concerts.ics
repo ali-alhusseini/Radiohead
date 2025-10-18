@@ -3,45 +3,31 @@ VERSION:2.0
 PRODID:-//Radiohead Concerts//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DTSTART:20240915T193000
-DTEND:20240915T220000
-SUMMARY:Radiohead Concert - Montréal, Canada
-LOCATION:Place des Arts
-DESCRIPTION:Radiohead live in Montréal. Tickets: https://www.ticketmaster.ca/radiohead-montreal-quebec-09-15-2024/event/1F005C8B9A3C5B6E
+DTSTART:20260915T193000
+DTEND:20260915T220000
+SUMMARY:Radiohead Concert - Halifax, NS
+LOCATION:Scotiabank Centre
+DESCRIPTION:Radiohead live in Halifax. Venue: Scotiabank Centre. Map: https://maps.app.goo.gl/kUNJztBJhLATkxze7
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20240918T200000
-DTEND:20240918T223000
-SUMMARY:Radiohead Concert - New York, U.S.
-LOCATION:Madison Square Garden
-DESCRIPTION:Radiohead live in New York. Tickets: https://www.ticketmaster.com/radiohead-new-york-09-18-2024/event/1F005C8B9A3C5B6E
+DTSTART:20260918T200000
+DTEND:20260918T223000
+SUMMARY:Radiohead Concert - Charlottetown, PE
+LOCATION:Confederation Centre of the Arts
+DESCRIPTION:Radiohead live in Charlottetown. Venue: Confederation Centre of the Arts. Map: https://maps.app.goo.gl/RAqjWvBLz9j2azwc9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20240921T190000
-DTEND:20240921T213000
-SUMMARY:Radiohead Concert - Hewlêr, Kurdistan
-LOCATION:Erbil International Fairground
-DESCRIPTION:Radiohead live in Hewlêr. Tickets: https://www.ticketmaster.com/radiohead-erbil-09-21-2024/event/1F005C8B9A3C5B6E
+DTSTART:20260921T190000
+DTEND:20260921T213000
+SUMMARY:Radiohead Concert - St. John's, NL
+LOCATION:Mary Brown's Centre
+DESCRIPTION:Radiohead live in St. John's. Venue: Mary Brown's Centre. Map: https://maps.app.goo.gl/4KFdnTHrFHWLPZEh9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20240924T200000
-DTEND:20240924T223000
-SUMMARY:Radiohead Concert - Zürich, Switzerland
-LOCATION:Hallenstadion
-DESCRIPTION:Radiohead live in Zürich. Tickets: https://www.ticketmaster.ch/radiohead-zurich-09-24-2024/event/1F005C8B9A3C5B6E
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20240927T193000
-DTEND:20240927T220000
-SUMMARY:Radiohead Concert - Paris, France
-LOCATION:Accor Arena
-DESCRIPTION:Radiohead live in Paris. Tickets: https://www.ticketmaster.fr/radiohead-paris-09-27-2024/event/1F005C8B9A3C5B6E
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20240930T193000
-DTEND:20240930T220000
-SUMMARY:Radiohead Concert - London, UK
-LOCATION:The O2 Arena
-DESCRIPTION:Radiohead live in London. Tickets: https://www.ticketmaster.co.uk/radiohead-london-09-30-2024/event/1F005C8B9A3C5B6E
+DTSTART:20260924T200000
+DTEND:20260924T223000
+SUMMARY:Radiohead Concert - Moncton, NB
+LOCATION:Avenir Centre
+DESCRIPTION:Radiohead live in Moncton. Venue: Avenir Centre. Map: https://maps.app.goo.gl/HjQAHxfVtPFt4mxD9
 END:VEVENT
 END:VCALENDAR
