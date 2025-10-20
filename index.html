@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/images/icons/radiohead-bear.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icons/radiohead-bear.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -18,7 +18,7 @@
 <body>
     <div class="header">
         <a href="/" alt="Radiohead - Home">
-            <img class="logo" src="/images/icons/radiohead-bear.svg" alt="Radiohead Bear Logo">
+            <img class="logo" src="/icons/radiohead-bear.svg" alt="Radiohead Bear Logo">
         </a>
         <a href="/" alt="Radiohead - Home">
             <h1 class="main-title">Radiohead</h1>
@@ -132,25 +132,25 @@
                         <tr>
                             <td>
                                 <a href="https://www.ticketmaster.ca/" target="_blank"
-                                    rel="noopener noreferrer"><strong><img src="/images/icons/ticket.svg"
+                                    rel="noopener noreferrer"><strong><img src="/icons/ticket.svg"
                                             alt="Ticket icon" aria-hidden="true"> Buy
                                         Tickets</strong></a>
                             </td>
                             <td>
                                 <a href="https://www.ticketmaster.com/" target="_blank"
-                                    rel="noopener noreferrer"><strong><img src="/images/icons/ticket.svg"
+                                    rel="noopener noreferrer"><strong><img src="/icons/ticket.svg"
                                             alt="Ticket icon" aria-hidden="true"> Buy
                                         Tickets</strong></a>
                             </td>
                             <td>
                                 <a href="https://www.ticketmaster.com/" target="_blank"
-                                    rel="noopener noreferrer"><strong><img src="/images/icons/ticket.svg"
+                                    rel="noopener noreferrer"><strong><img src="/icons/ticket.svg"
                                             alt="Ticket icon" aria-hidden="true"> Buy
                                         Tickets</strong></a>
                             </td>
                             <td>
                                 <a href="https://www.ticketmaster.ch/" target="_blank"
-                                    rel="noopener noreferrer"><strong><img src="/images/icons/ticket.svg"
+                                    rel="noopener noreferrer"><strong><img src="/icons/ticket.svg"
                                             alt="Ticket icon" aria-hidden="true"> Buy
                                         Tickets</strong></a>
                             </td>
@@ -160,12 +160,12 @@
             </div>
         </div>
         <div class="buttons-spacer">
-            <button class="add-to-calendar" onclick="window.location.href='/radiohead-concerts.ics'">
-                <img src="/images/icons/calendar.svg" alt="Calendar icon" aria-hidden="true">
+            <button class="add-to-calendar" onclick="window.location.href='/assets/radiohead-concerts.ics'">
+                <img src="/icons/calendar.svg" alt="Calendar icon" aria-hidden="true">
                 Add all concerts to your calendar
             </button>
             <button class="copy-url">
-                <img src="/images/icons/share.svg" alt="Share icon" aria-hidden="true">
+                <img src="/icons/link.svg" alt="Share icon" aria-hidden="true">
                 Copy URL
             </button>
         </div>
@@ -214,9 +214,9 @@
                 </a>
             </div>
         </div>
-        <button class="prev" onclick="scrollCarousel(-1)"><img src="/images/icons/backward.svg" alt="Left arrow"
+        <button class="prev" onclick="scrollCarousel(-1)"><img src="/icons/backward.svg" alt="Left arrow"
                 aria-hidden="true"></button>
-        <button class="next" onclick="scrollCarousel(1)"><img src="/images/icons/forward.svg" alt="right arrow"
+        <button class="next" onclick="scrollCarousel(1)"><img src="/icons/forward.svg" alt="right arrow"
                 aria-hidden="tru"></button>
     </div>
     <div class="contact" id="contact">
@@ -232,16 +232,16 @@
             <h3>Follow Radiohead</h3>
             <ul class="social-links">
                 <li><a href="https://www.instagram.com/radiohead" target="_blank" rel="noopener noreferrer"
-                        aria-label="Radiohead on Instagram"><img src="/images/icons/instagram.svg" alt="Instagram logo"
+                        aria-label="Radiohead on Instagram"><img src="/icons/instagram.svg" alt="Instagram logo"
                             width="25" height="25"></a></li>
                 <li><a href="https://www.facebook.com/radiohead" target="_blank" rel="noopener noreferrer"
-                        aria-label="Radiohead on Facebook"><img src="/images/icons/facebook.png"
+                        aria-label="Radiohead on Facebook"><img src="/icons/facebook.png"
                             alt="Facebook logo width=" 25" height="25"></a></li>
                 <li><a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"
-                        rel="noopener noreferrer" aria-label="Radiohead on Spotify"><img src="/images/icons/spotify.png"
+                        rel="noopener noreferrer" aria-label="Radiohead on Spotify"><img src="/icons/spotify.png"
                             alt="Spotify logo" width="25" height="25"></a></li>
                 <li><a href="https://www.youtube.com/user/Radiohead" target="_blank" rel="noopener noreferrer"
-                        aria-label="Radiohead on YouTube"><img src="/images/icons/youtube.png" alt="YouTube logo"
+                        aria-label="Radiohead on YouTube"><img src="/icons/youtube.png" alt="YouTube logo"
                             width="35" height="auto"></a></li>
             </ul>
         </div>
@@ -258,24 +258,5 @@
                 Alhusseini</a> (&copy; 2025) </p>
     </footer>
 </body>
-
-<script load="defer">
-    const track = document.querySelector(".carousel-track");
-    const albumWidth = 300 + 10;
-
-    function scrollCarousel(direction) {
-        track.scrollBy({
-            left: direction * albumWidth * 2, // scroll by 2 albums
-            behavior: "smooth",
-        });
-    }
-
-    document.querySelector(".copy-url").addEventListener("click", () => {
-        const url = window.location.href;
-        navigator.clipboard.writeText(url).then(() => {
-            alert("URL copied to clipboard!");
-        });
-    });
-</script>
 
 </html>
