@@ -33,3 +33,6 @@ coverage/
 # Others
 *.swp
 *.swo
+
+# Temporary files
+home_page.html
