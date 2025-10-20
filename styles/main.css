@@ -150,13 +150,15 @@ a {
   margin: 0;
 }
 
+#table-container {
+  overflow-x: auto;
+}
+
 .concerts-table {
   width: 100%;
-  border-left: solid 5px var(--color-ash);
-  border-right: solid 5px var(--color-ash);
-  border-top: solid 5px var(--color-ash);
-  border-bottom: solid 5px var(--color-ash);
+  border: solid 5px var(--color-ash);
   border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .concerts-table th,
@@ -167,6 +169,7 @@ a {
   border-bottom: none;
   padding: 10px;
   text-align: left;
+  text-wrap: nowrap;
 }
 
 .concerts-table th {
@@ -338,9 +341,11 @@ footer a {
     height: 45px;
   }
 
-  .concerts-table {
-    max-width: 80%;
-    overflow-x: auto;
-    margin: 0 30px;
+  .concerts-list {
+  padding: 0 0 0 50px;
+  }
+
+  .tour-title {
+    font-size: 2rem;
   }
 }
