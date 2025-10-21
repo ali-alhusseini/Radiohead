@@ -313,7 +313,7 @@ footer a {
 }
 
 /* Responsive for mobile */
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .header {
     flex-direction: column;
     padding: 40px;
